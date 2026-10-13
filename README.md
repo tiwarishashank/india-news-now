@@ -1,4 +1,4 @@
-# India News Today with Nisha
+# India News Today
 
 _Formerly "India News Now with Nisha"; repo and feed URLs unchanged. Host: Nisha, an AI-voiced newsreader._
 

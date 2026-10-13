@@ -8,7 +8,8 @@ BASE="https://tiwarishashank.github.io/india-news-now/"
 ENDPOINT="https://westus2.tts.speech.microsoft.com/cognitiveservices/v1"
 VOICE="en-IN-Aarti:DragonHDLatestNeural"
 KEEP=60
-TITLE="India News Today with Nisha"
+TITLE="India News Today"
+AUTHOR="India News Today"
 DESC=("A daily two-to-three minute bulletin of India's top news: politics, business and markets, entertainment and cricket. "
       "Nisha is an AI-voiced newsreader; stories are researched and checked by an AI assistant.")
 def sh(*a,**k): return subprocess.run(a,check=True,cwd=REPO,**k)
@@ -70,8 +71,8 @@ def build_feed(eps):
   <language>en-in</language>
   <copyright>© {datetime.date.today().year} Shashank Tiwari</copyright>
   <lastBuildDate>{now}</lastBuildDate>
-  <itunes:author>Shashank Tiwari</itunes:author>
-  <itunes:owner><itunes:name>Shashank Tiwari</itunes:name><itunes:email>shashank.iitb@gmail.com</itunes:email></itunes:owner>
+  <itunes:author>{x(AUTHOR)}</itunes:author>
+  <itunes:owner><itunes:name>{x(AUTHOR)}</itunes:name><itunes:email>shashank.iitb@gmail.com</itunes:email></itunes:owner>
   <itunes:image href="{BASE}cover.jpg"/>
   <image><url>{BASE}cover.jpg</url><title>{x(TITLE)}</title><link>{BASE}</link></image>
   <itunes:category text="News"><itunes:category text="Daily News"/></itunes:category>
