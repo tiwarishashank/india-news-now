@@ -81,6 +81,19 @@ def build_feed(eps):
 </channel>
 </rss>
 """
+def git_net(*args,attempts=5,timeout=120):
+    """Run a networked git command with a timeout and retries (backoff 30/60/120/240s)."""
+    waits=[30,60,120,240]
+    for i in range(attempts):
+        try:
+            r=subprocess.run(["git",*args],cwd=REPO,timeout=timeout)
+            if r.returncode==0: return
+            why=f"exit {r.returncode}"
+        except subprocess.TimeoutExpired: why=f"timed out after {timeout}s"
+        if i<attempts-1:
+            w=waits[min(i,len(waits)-1)]
+            print(f"git {' '.join(args)} failed ({why}); retry {i+2}/{attempts} in {w}s",file=sys.stderr); time.sleep(w)
+    raise SystemExit(f"ERROR: git {' '.join(args)} failed after {attempts} attempts ({why}); episode built locally but NOT published")
 def main():
     ap=argparse.ArgumentParser(); ap.add_argument("script"); ap.add_argument("--date"); ap.add_argument("--no-push",action="store_true")
     a=ap.parse_args()
@@ -126,8 +139,8 @@ def main():
     sh("git","add","-A")
     if subprocess.run(["git","diff","--cached","--quiet"],cwd=REPO).returncode:
         sh("git","commit","-q","-m",f"Episode {date}")
-    if subprocess.run(["git","ls-remote","--exit-code","--heads","origin","main"],cwd=REPO,capture_output=True).returncode==0:
-        sh("git","pull","-q","--rebase","origin","main")
-    sh("git","push","-q","origin","HEAD:main")
+    if subprocess.run(["git","ls-remote","--exit-code","--heads","origin","main"],cwd=REPO,capture_output=True,timeout=120).returncode==0:
+        git_net("pull","-q","--rebase","origin","main")
+    git_net("push","-q","origin","HEAD:main")
     print("published",BASE+f"episodes/{date}.mp3")
 if __name__=="__main__": main()
