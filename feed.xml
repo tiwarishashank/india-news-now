@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
 <channel>
-  <title>Indian News Today with Nisha</title>
+  <title>India News Today with Nisha</title>
   <link>https://tiwarishashank.github.io/india-news-now/</link>
   <atom:link href="https://tiwarishashank.github.io/india-news-now/feed.xml" rel="self" type="application/rss+xml"/>
   <description>A daily two-to-three minute bulletin of India&#x27;s top news: politics, business and markets, entertainment and cricket. Nisha is an AI-voiced newsreader; stories are researched and checked by an AI assistant.</description>
   <itunes:summary>A daily two-to-three minute bulletin of India&#x27;s top news: politics, business and markets, entertainment and cricket. Nisha is an AI-voiced newsreader; stories are researched and checked by an AI assistant.</itunes:summary>
   <language>en-in</language>
   <copyright>© 2026 Shashank Tiwari</copyright>
-  <lastBuildDate>Tue, 13 Oct 2026 07:55:15 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 13 Oct 2026 07:56:16 +0000</lastBuildDate>
   <itunes:author>Shashank Tiwari</itunes:author>
   <itunes:owner><itunes:name>Shashank Tiwari</itunes:name><itunes:email>shashank.iitb@gmail.com</itunes:email></itunes:owner>
   <itunes:image href="https://tiwarishashank.github.io/india-news-now/cover.jpg"/>
-  <image><url>https://tiwarishashank.github.io/india-news-now/cover.jpg</url><title>Indian News Today with Nisha</title><link>https://tiwarishashank.github.io/india-news-now/</link></image>
+  <image><url>https://tiwarishashank.github.io/india-news-now/cover.jpg</url><title>India News Today with Nisha</title><link>https://tiwarishashank.github.io/india-news-now/</link></image>
   <itunes:category text="News"><itunes:category text="Daily News"/></itunes:category>
   <itunes:explicit>false</itunes:explicit>
   <itunes:type>episodic</itunes:type>
   <item>
-    <title>Indian News Today – Tuesday, October 13, 2026</title>
+    <title>India News Today – Tuesday, October 13, 2026</title>
     <description>We start in Delhi, where the opposition staged one of its biggest shows of strength in years. Sixteen INDIA bloc parties led thousands of people through central Delhi on Monday to protest against Chief Election Commissioner Gyanesh Kumar. Rahul Gandhi then walked into the Supreme Court and filed a petition with Mallikarjun Kharge and other leaders. They&#x27;re asking for an independent inquiry into de…</description>
     <itunes:summary>We start in Delhi, where the opposition staged one of its biggest shows of strength in years. Sixteen INDIA bloc parties led thousands of people through central Delhi on Monday to protest against Chief Election Commissioner Gyanesh Kumar. Rahul Gandhi then walked into the Supreme Court and filed a petition with Mallikarjun Kharge and other leaders. They&#x27;re asking for an independent inquiry into de…</itunes:summary>
     <guid isPermaLink="false">india-news-now-2026-10-13</guid>
     <pubDate>Tue, 13 Oct 2026 06:47:00 -0700</pubDate>
-    <enclosure url="https://tiwarishashank.github.io/india-news-now/episodes/2026-10-13.mp3" length="1503072" type="audio/mpeg"/>
-    <itunes:duration>00:02:05</itunes:duration>
+    <enclosure url="https://tiwarishashank.github.io/india-news-now/episodes/2026-10-13.mp3" length="1492992" type="audio/mpeg"/>
+    <itunes:duration>00:02:04</itunes:duration>
     <itunes:episodeType>full</itunes:episodeType>
     <itunes:explicit>false</itunes:explicit>
   </item>
