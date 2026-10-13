@@ -43,6 +43,15 @@ def tts(text_ssml,out):
     raise SystemExit("TTS failed after retries")
 def duration(p):
     return float(subprocess.check_output(["ffprobe","-v","error","-show_entries","format=duration","-of","csv=p=0",p]).strip())
+JINGLE=os.path.join(REPO,"jingle.mp3")
+OVERLAP=0.3
+MAX_SEC=178
+def add_jingle(voice,jingle,out,overlap=OVERLAP):
+    """Prepend jingle with ~overlap s crossfade into the voice, then loudness-normalize to -16 LUFS."""
+    subprocess.run(["ffmpeg","-y","-loglevel","error","-i",jingle,"-i",voice,"-filter_complex",
+        f"[0:a]aresample=44100,aformat=channel_layouts=mono[j];[1:a]aresample=44100,aformat=channel_layouts=mono[v];"
+        f"[j][v]acrossfade=d={overlap}:c1=tri:c2=tri,loudnorm=I=-16:TP=-1.5:LRA=11[o]",
+        "-map","[o]","-ar","44100","-ac","1","-b:a","96k",out],check=True)
 def hms(s): s=int(round(s)); return f"{s//3600:02d}:{s%3600//60:02d}:{s%60:02d}"
 def x(s): return html.escape(s,quote=True)
 def build_feed(eps):
@@ -114,6 +123,13 @@ def main():
         else:
             open(f"{td}/l.txt","w").write("".join(f"file '{p}'\n" for p in parts))
             subprocess.run(["ffmpeg","-y","-loglevel","error","-f","concat","-safe","0","-i",f"{td}/l.txt","-c","copy",mp3],check=True)
+        if os.path.exists(JINGLE):
+            v=f"{td}/voice.mp3"; shutil.move(mp3,v); add_jingle(v,JINGLE,mp3); print("jingle added")
+    dur=duration(mp3)
+    if dur>MAX_SEC:
+        bar="!"*70
+        print(f"{bar}\nWARNING: episode is {dur:.1f}s ({hms(dur)}), over the {MAX_SEC}s guard; trim the script next time (target 2:45-2:55, never over 3:00)\n{bar}",file=sys.stderr)
+    else: print(f"duration {dur:.1f}s")
     sp=f"{REPO}/scripts/{date}.txt"
     if os.path.abspath(a.script)!=os.path.abspath(sp): shutil.copy(a.script,sp)
     mf=f"{REPO}/episodes.json"
