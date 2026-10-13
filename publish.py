@@ -126,6 +126,8 @@ def main():
     sh("git","add","-A")
     if subprocess.run(["git","diff","--cached","--quiet"],cwd=REPO).returncode:
         sh("git","commit","-q","-m",f"Episode {date}")
-    sh("git","pull","-q","--rebase"); sh("git","push","-q","origin","HEAD:main")
+    if subprocess.run(["git","ls-remote","--exit-code","--heads","origin","main"],cwd=REPO,capture_output=True).returncode==0:
+        sh("git","pull","-q","--rebase","origin","main")
+    sh("git","push","-q","origin","HEAD:main")
     print("published",BASE+f"episodes/{date}.mp3")
 if __name__=="__main__": main()
