@@ -1,4 +1,6 @@
-# India News Now with Nisha
+# Indian News Today with Nisha
+
+_Formerly "India News Now with Nisha"; repo and feed URLs unchanged. Host: Nisha, an AI-voiced newsreader._
 
 Free, self-hosted podcast feed on GitHub Pages. Feed: https://tiwarishashank.github.io/india-news-now/feed.xml
 

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Publish an India News Now episode. Usage: python3 publish.py SCRIPT.txt [--date YYYY-MM-DD] [--no-push]"""
+"""Publish an Indian News Today episode. Usage: python3 publish.py SCRIPT.txt [--date YYYY-MM-DD] [--no-push]"""
 import os,sys,re,json,time,html,shutil,subprocess,argparse,datetime,tempfile,urllib.request,urllib.error
 from email.utils import format_datetime
 from zoneinfo import ZoneInfo
@@ -8,7 +8,7 @@ BASE="https://tiwarishashank.github.io/india-news-now/"
 ENDPOINT="https://westus2.tts.speech.microsoft.com/cognitiveservices/v1"
 VOICE="en-IN-Aarti:DragonHDLatestNeural"
 KEEP=60
-TITLE="India News Now with Nisha"
+TITLE="Indian News Today with Nisha"
 DESC=("A daily two-to-three minute bulletin of India's top news: politics, business and markets, entertainment and cricket. "
       "Nisha is an AI-voiced newsreader; stories are researched and checked by an AI assistant.")
 def sh(*a,**k): return subprocess.run(a,check=True,cwd=REPO,**k)
@@ -107,7 +107,7 @@ def main():
     eps=[e for e in eps if e["date"]!=date]
     pub=datetime.datetime.combine(d,datetime.time(6,47),ZoneInfo("America/Los_Angeles"))
     summary=paras[1] if len(paras)>1 else paras[0]
-    eps.append({"date":date,"title":f"India News Now – {d.strftime('%A, %B')} {d.day}, {d.year}",
+    eps.append({"date":date,"title":f"Indian News Today – {d.strftime('%A, %B')} {d.day}, {d.year}",
         "description":(summary[:400]+("…" if len(summary)>400 else "")),
         "pubDate":format_datetime(pub),"length":os.path.getsize(mp3),"duration":hms(duration(mp3))})
     eps.sort(key=lambda e:e["date"],reverse=True)
