@@ -82,8 +82,8 @@ def build_feed(eps):
   <lastBuildDate>{now}</lastBuildDate>
   <itunes:author>{x(AUTHOR)}</itunes:author>
   <itunes:owner><itunes:name>{x(AUTHOR)}</itunes:name><itunes:email>shashank.iitb@gmail.com</itunes:email></itunes:owner>
-  <itunes:image href="{BASE}cover.jpg"/>
-  <image><url>{BASE}cover.jpg</url><title>{x(TITLE)}</title><link>{BASE}</link></image>
+  <itunes:image href="{BASE}cover-navy.jpg"/>
+  <image><url>{BASE}cover-navy.jpg</url><title>{x(TITLE)}</title><link>{BASE}</link></image>
   <itunes:category text="News"><itunes:category text="Daily News"/></itunes:category>
   <itunes:explicit>false</itunes:explicit>
   <itunes:type>episodic</itunes:type>
