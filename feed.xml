@@ -8,7 +8,7 @@
   <itunes:summary>A daily two-to-three minute bulletin of India&#x27;s top news: politics, business and markets, entertainment and cricket. Nisha is an AI-voiced newsreader; stories are researched and checked by an AI assistant.</itunes:summary>
   <language>en-in</language>
   <copyright>© 2026 Shashank Tiwari</copyright>
-  <lastBuildDate>Tue, 13 Oct 2026 20:48:20 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 14 Oct 2026 14:00:13 +0000</lastBuildDate>
   <itunes:author>India News Today</itunes:author>
   <itunes:owner><itunes:name>India News Today</itunes:name><itunes:email>shashank.iitb@gmail.com</itunes:email></itunes:owner>
   <itunes:image href="https://tiwarishashank.github.io/india-news-now/cover-navy.jpg"/>
@@ -16,6 +16,17 @@
   <itunes:category text="News"><itunes:category text="Daily News"/></itunes:category>
   <itunes:explicit>false</itunes:explicit>
   <itunes:type>episodic</itunes:type>
+  <item>
+    <title>India News Today – Wednesday, October 14, 2026</title>
+    <description>Opposition protests over India&#x27;s voter roll revision continued in Delhi on Wednesday. Student groups marched toward Jantar Mantar demanding the resignation of Chief Election Commissioner Gyanesh Kumar, while the Cockroach Janta Party called for a Tiranga march at Connaught Place on October sixteenth. Delhi Police have registered FIRs over Monday&#x27;s INDIA bloc protest march, citing lack of permissio…</description>
+    <itunes:summary>Opposition protests over India&#x27;s voter roll revision continued in Delhi on Wednesday. Student groups marched toward Jantar Mantar demanding the resignation of Chief Election Commissioner Gyanesh Kumar, while the Cockroach Janta Party called for a Tiranga march at Connaught Place on October sixteenth. Delhi Police have registered FIRs over Monday&#x27;s INDIA bloc protest march, citing lack of permissio…</itunes:summary>
+    <guid isPermaLink="false">india-news-now-2026-10-14</guid>
+    <pubDate>Wed, 14 Oct 2026 06:47:00 -0700</pubDate>
+    <enclosure url="https://tiwarishashank.github.io/india-news-now/episodes/2026-10-14.mp3" length="1985245" type="audio/mpeg"/>
+    <itunes:duration>00:02:45</itunes:duration>
+    <itunes:episodeType>full</itunes:episodeType>
+    <itunes:explicit>false</itunes:explicit>
+  </item>
   <item>
     <title>India News Today – Tuesday, October 13, 2026</title>
     <description>Opposition leaders have taken their fight over India&#x27;s voter rolls to the Supreme Court. Lok Sabha Leader of Opposition Rahul Gandhi, Rajya Sabha Leader of Opposition Mallikarjun Kharge and other INDIA bloc leaders filed a joint petition challenging the Election Commission&#x27;s Special Intensive Revision of electoral rolls. They are asking the court to make the Commission publish, booth by booth, the…</description>
