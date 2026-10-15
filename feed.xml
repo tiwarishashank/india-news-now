@@ -8,7 +8,7 @@
   <itunes:summary>A daily two-to-three minute bulletin of India&#x27;s top news: politics, business and markets, entertainment and cricket. Nisha is an AI-voiced newsreader; stories are researched and checked by an AI assistant.</itunes:summary>
   <language>en-in</language>
   <copyright>© 2026 Shashank Tiwari</copyright>
-  <lastBuildDate>Wed, 14 Oct 2026 14:00:13 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 15 Oct 2026 13:58:45 +0000</lastBuildDate>
   <itunes:author>India News Today</itunes:author>
   <itunes:owner><itunes:name>India News Today</itunes:name><itunes:email>shashank.iitb@gmail.com</itunes:email></itunes:owner>
   <itunes:image href="https://tiwarishashank.github.io/india-news-now/cover-navy.jpg"/>
@@ -16,6 +16,17 @@
   <itunes:category text="News"><itunes:category text="Daily News"/></itunes:category>
   <itunes:explicit>false</itunes:explicit>
   <itunes:type>episodic</itunes:type>
+  <item>
+    <title>India News Today – Thursday, October 15, 2026</title>
+    <description>The Supreme Court on Thursday issued notices on a series of petitions challenging the Election Commission&#x27;s Special Intensive Revision of voter rolls, and on the mass detentions of protesters and journalists in Delhi last week. Delhi Police told the court the detentions were preventive and lasted two to six hours. Separately, the Delhi High Court refused to stop the Cockroach Janta Party from hold…</description>
+    <itunes:summary>The Supreme Court on Thursday issued notices on a series of petitions challenging the Election Commission&#x27;s Special Intensive Revision of voter rolls, and on the mass detentions of protesters and journalists in Delhi last week. Delhi Police told the court the detentions were preventive and lasted two to six hours. Separately, the Delhi High Court refused to stop the Cockroach Janta Party from hold…</itunes:summary>
+    <guid isPermaLink="false">india-news-now-2026-10-15</guid>
+    <pubDate>Thu, 15 Oct 2026 06:47:00 -0700</pubDate>
+    <enclosure url="https://tiwarishashank.github.io/india-news-now/episodes/2026-10-15.mp3" length="1881173" type="audio/mpeg"/>
+    <itunes:duration>00:02:37</itunes:duration>
+    <itunes:episodeType>full</itunes:episodeType>
+    <itunes:explicit>false</itunes:explicit>
+  </item>
   <item>
     <title>India News Today – Wednesday, October 14, 2026</title>
     <description>Opposition protests over India&#x27;s voter roll revision continued in Delhi on Wednesday. Student groups marched toward Jantar Mantar demanding the resignation of Chief Election Commissioner Gyanesh Kumar, while the Cockroach Janta Party called for a Tiranga march at Connaught Place on October sixteenth. Delhi Police have registered FIRs over Monday&#x27;s INDIA bloc protest march, citing lack of permissio…</description>
