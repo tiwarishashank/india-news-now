@@ -8,7 +8,7 @@
   <itunes:summary>A daily two-to-three minute bulletin of India&#x27;s top news: politics, business and markets, entertainment and cricket. Nisha is an AI-voiced newsreader; stories are researched and checked by an AI assistant.</itunes:summary>
   <language>en-in</language>
   <copyright>© 2026 Shashank Tiwari</copyright>
-  <lastBuildDate>Thu, 15 Oct 2026 14:00:12 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 16 Oct 2026 13:58:23 +0000</lastBuildDate>
   <itunes:author>India News Today</itunes:author>
   <itunes:owner><itunes:name>India News Today</itunes:name><itunes:email>shashank.iitb@gmail.com</itunes:email></itunes:owner>
   <itunes:image href="https://tiwarishashank.github.io/india-news-now/cover-navy.jpg"/>
@@ -16,6 +16,17 @@
   <itunes:category text="News"><itunes:category text="Daily News"/></itunes:category>
   <itunes:explicit>false</itunes:explicit>
   <itunes:type>episodic</itunes:type>
+  <item>
+    <title>India News Today – Friday, October 16, 2026</title>
+    <description>Congress president Mallikarjun Kharge on Friday wrote to Prime Minister Narendra Modi urging an all-party meeting on the Centre&#x27;s delimitation proposals, and warning against any attempt to push through a far-reaching Constitutional Amendment Bill without wider consultation. In his letter, Kharge flagged what he called an unprecedented sixty-four-day delay in proroguing Parliament after the Monsoon…</description>
+    <itunes:summary>Congress president Mallikarjun Kharge on Friday wrote to Prime Minister Narendra Modi urging an all-party meeting on the Centre&#x27;s delimitation proposals, and warning against any attempt to push through a far-reaching Constitutional Amendment Bill without wider consultation. In his letter, Kharge flagged what he called an unprecedented sixty-four-day delay in proroguing Parliament after the Monsoon…</itunes:summary>
+    <guid isPermaLink="false">india-news-now-2026-10-16</guid>
+    <pubDate>Fri, 16 Oct 2026 06:47:00 -0700</pubDate>
+    <enclosure url="https://tiwarishashank.github.io/india-news-now/episodes/2026-10-16.mp3" length="2035087" type="audio/mpeg"/>
+    <itunes:duration>00:02:50</itunes:duration>
+    <itunes:episodeType>full</itunes:episodeType>
+    <itunes:explicit>false</itunes:explicit>
+  </item>
   <item>
     <title>India News Today – Thursday, October 15, 2026</title>
     <description>The Supreme Court on Thursday issued notices on a series of petitions challenging the Election Commission&#x27;s Special Intensive Revision of voter rolls, and on the mass detentions of protesters and journalists in Delhi last week. Delhi Police told the court the detentions were preventive and lasted two to six hours. Separately, the Delhi High Court refused to stop the Cockroach Janta Party from hold…</description>
