@@ -7,6 +7,10 @@ REPO=os.path.dirname(os.path.abspath(__file__))
 BASE="https://tiwarishashank.github.io/india-news-now/"
 ENDPOINT="https://westus2.tts.speech.microsoft.com/cognitiveservices/v1"
 VOICE="en-IN-Aarti:DragonHDLatestNeural"
+# Feed <language>: must be a code from the RSS Board list (rssboard.org/rss-language-codes).
+# "en-in" is not on it, and the TrueFans / Podcasting 2.0 index rejects the feed
+# ("Provided language is not supported"). Keep plain "en"; the TTS voice stays en-IN.
+FEED_LANGUAGE="en"
 KEEP=60
 TITLE="India News Today"
 AUTHOR="India News Today"
@@ -77,7 +81,7 @@ def build_feed(eps):
   <atom:link href="{BASE}feed.xml" rel="self" type="application/rss+xml"/>
   <description>{x(DESC)}</description>
   <itunes:summary>{x(DESC)}</itunes:summary>
-  <language>en-in</language>
+  <language>{FEED_LANGUAGE}</language>
   <copyright>© {datetime.date.today().year} Shashank Tiwari</copyright>
   <lastBuildDate>{now}</lastBuildDate>
   <itunes:author>{x(AUTHOR)}</itunes:author>
