@@ -8,7 +8,7 @@
   <itunes:summary>A daily two-to-three minute bulletin of India&#x27;s top news: politics, business and markets, entertainment and cricket. Nisha is an AI-voiced newsreader; stories are researched and checked by an AI assistant.</itunes:summary>
   <language>en</language>
   <copyright>© 2026 Shashank Tiwari</copyright>
-  <lastBuildDate>Sat, 17 Oct 2026 14:21:32 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 18 Oct 2026 13:50:41 +0000</lastBuildDate>
   <itunes:author>India News Today</itunes:author>
   <itunes:owner><itunes:name>India News Today</itunes:name><itunes:email>shashank.iitb@gmail.com</itunes:email></itunes:owner>
   <itunes:image href="https://tiwarishashank.github.io/india-news-now/cover-navy.jpg"/>
@@ -16,6 +16,17 @@
   <itunes:category text="News"><itunes:category text="Daily News"/></itunes:category>
   <itunes:explicit>false</itunes:explicit>
   <itunes:type>episodic</itunes:type>
+  <item>
+    <title>India News Today – Sunday, October 18, 2026</title>
+    <description>Kolkata police have arrested seven people, including the secretary and vice president of the organizing committee, after a stampede at a Durga Puja pandal killed nineteen people and injured twenty-five. The crush happened on Saturday evening at the Chorbagan pandal in north Kolkata, when rain drove crowds inside and an announcement allegedly warned that the structure could collapse. Chief Minister…</description>
+    <itunes:summary>Kolkata police have arrested seven people, including the secretary and vice president of the organizing committee, after a stampede at a Durga Puja pandal killed nineteen people and injured twenty-five. The crush happened on Saturday evening at the Chorbagan pandal in north Kolkata, when rain drove crowds inside and an announcement allegedly warned that the structure could collapse. Chief Minister…</itunes:summary>
+    <guid isPermaLink="false">india-news-now-2026-10-18</guid>
+    <pubDate>Sun, 18 Oct 2026 06:47:00 -0700</pubDate>
+    <enclosure url="https://tiwarishashank.github.io/india-news-now/episodes/2026-10-18.mp3" length="1926313" type="audio/mpeg"/>
+    <itunes:duration>00:02:40</itunes:duration>
+    <itunes:episodeType>full</itunes:episodeType>
+    <itunes:explicit>false</itunes:explicit>
+  </item>
   <item>
     <title>India News Today – Saturday, October 17, 2026</title>
     <description>Former Deputy Prime Minister L.K. Advani is in intensive care at Apollo Hospital in Delhi with a chest infection. The ninety-eight-year-old B.J.P. veteran was admitted on Friday evening. In a statement on Saturday, the hospital said his condition is stable and that he remains under close medical observation. Union Health Minister J.P. Nadda visited him on Saturday.</description>
