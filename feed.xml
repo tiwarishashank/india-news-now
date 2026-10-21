@@ -8,7 +8,7 @@
   <itunes:summary>A daily two-to-three minute bulletin of India&#x27;s top news: politics, business and markets, entertainment and cricket. Nisha is an AI-voiced newsreader; stories are researched and checked by an AI assistant.</itunes:summary>
   <language>en</language>
   <copyright>© 2026 Shashank Tiwari</copyright>
-  <lastBuildDate>Tue, 20 Oct 2026 13:49:54 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 21 Oct 2026 13:53:07 +0000</lastBuildDate>
   <itunes:author>India News Today</itunes:author>
   <itunes:owner><itunes:name>India News Today</itunes:name><itunes:email>shashank.iitb@gmail.com</itunes:email></itunes:owner>
   <itunes:image href="https://tiwarishashank.github.io/india-news-now/cover-navy.jpg"/>
@@ -16,6 +16,17 @@
   <itunes:category text="News"><itunes:category text="Daily News"/></itunes:category>
   <itunes:explicit>false</itunes:explicit>
   <itunes:type>episodic</itunes:type>
+  <item>
+    <title>India News Today – Wednesday, October 21, 2026</title>
+    <description>U.S. Secretary of State Marco Rubio visited Jamnagar, Gujarat, on Wednesday, touring Reliance&#x27;s refinery complex. Rubio said India is one of the few places in the world that can refine Venezuela&#x27;s heavy crude, and called energy diversification a shared goal. In an interview with The Indian Express, he said a trade deal is weeks, not months, away, with ninety-nine percent of the work done. Presiden…</description>
+    <itunes:summary>U.S. Secretary of State Marco Rubio visited Jamnagar, Gujarat, on Wednesday, touring Reliance&#x27;s refinery complex. Rubio said India is one of the few places in the world that can refine Venezuela&#x27;s heavy crude, and called energy diversification a shared goal. In an interview with The Indian Express, he said a trade deal is weeks, not months, away, with ninety-nine percent of the work done. Presiden…</itunes:summary>
+    <guid isPermaLink="false">india-news-now-2026-10-21</guid>
+    <pubDate>Wed, 21 Oct 2026 06:47:00 -0700</pubDate>
+    <enclosure url="https://tiwarishashank.github.io/india-news-now/episodes/2026-10-21.mp3" length="2007502" type="audio/mpeg"/>
+    <itunes:duration>00:02:47</itunes:duration>
+    <itunes:episodeType>full</itunes:episodeType>
+    <itunes:explicit>false</itunes:explicit>
+  </item>
   <item>
     <title>India News Today – Tuesday, October 20, 2026</title>
     <description>U.S. Secretary of State Marco Rubio says India and the United States are very, very close to a trade deal. Speaking in Mumbai after talks with External Affairs Minister S. Jaishankar, Rubio said the two sides are about as close as you can be without an executed agreement, with a small number of items left to wrap up. He also welcomed what he called substantial progress by India in diversifying its…</description>
