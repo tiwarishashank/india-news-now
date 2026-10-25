@@ -8,7 +8,7 @@
   <itunes:summary>A daily two-to-three minute bulletin of India&#x27;s top news: politics, business and markets, entertainment and cricket. Nisha is an AI-voiced newsreader; stories are researched and checked by an AI assistant.</itunes:summary>
   <language>en</language>
   <copyright>© 2026 Shashank Tiwari</copyright>
-  <lastBuildDate>Sat, 24 Oct 2026 13:52:45 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 25 Oct 2026 13:49:54 +0000</lastBuildDate>
   <itunes:author>India News Today</itunes:author>
   <itunes:owner><itunes:name>India News Today</itunes:name><itunes:email>shashank.iitb@gmail.com</itunes:email></itunes:owner>
   <itunes:image href="https://tiwarishashank.github.io/india-news-now/cover-navy.jpg"/>
@@ -16,6 +16,17 @@
   <itunes:category text="News"><itunes:category text="Daily News"/></itunes:category>
   <itunes:explicit>false</itunes:explicit>
   <itunes:type>episodic</itunes:type>
+  <item>
+    <title>India News Today – Sunday, October 25, 2026</title>
+    <description>India&#x27;s east coast is bracing for a powerful storm. The India Meteorological Department says a depression over the Bay of Bengal is likely to intensify into a very severe cyclonic storm and cross the Andhra Pradesh coast between Bapatla and Visakhapatnam on October twenty-eighth. Winds could reach one hundred and twenty-five kilometers an hour, gusting to one hundred and forty. Extremely heavy rai…</description>
+    <itunes:summary>India&#x27;s east coast is bracing for a powerful storm. The India Meteorological Department says a depression over the Bay of Bengal is likely to intensify into a very severe cyclonic storm and cross the Andhra Pradesh coast between Bapatla and Visakhapatnam on October twenty-eighth. Winds could reach one hundred and twenty-five kilometers an hour, gusting to one hundred and forty. Extremely heavy rai…</itunes:summary>
+    <guid isPermaLink="false">india-news-now-2026-10-25</guid>
+    <pubDate>Sun, 25 Oct 2026 06:47:00 -0700</pubDate>
+    <enclosure url="https://tiwarishashank.github.io/india-news-now/episodes/2026-10-25.mp3" length="1976155" type="audio/mpeg"/>
+    <itunes:duration>00:02:45</itunes:duration>
+    <itunes:episodeType>full</itunes:episodeType>
+    <itunes:explicit>false</itunes:explicit>
+  </item>
   <item>
     <title>India News Today – Saturday, October 24, 2026</title>
     <description>The fight over India&#x27;s voter rolls widened on Friday. Punjab&#x27;s Assembly unanimously passed a resolution seeking an independent inquiry into alleged electoral irregularities and the functioning of the Election Commission under Chief Election Commissioner Gyanesh Kumar. Chief Minister Bhagwant Mann blamed the B J P for what he called vote loot, and demanded that the special intensive revision of ele…</description>
