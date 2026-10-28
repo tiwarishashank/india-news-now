@@ -8,7 +8,7 @@
   <itunes:summary>A daily two-to-three minute bulletin of India&#x27;s top news: politics, business and markets, entertainment and cricket. Nisha is an AI-voiced newsreader; stories are researched and checked by an AI assistant.</itunes:summary>
   <language>en</language>
   <copyright>© 2026 Shashank Tiwari</copyright>
-  <lastBuildDate>Tue, 27 Oct 2026 13:57:45 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 28 Oct 2026 13:55:59 +0000</lastBuildDate>
   <itunes:author>India News Today</itunes:author>
   <itunes:owner><itunes:name>India News Today</itunes:name><itunes:email>shashank.iitb@gmail.com</itunes:email></itunes:owner>
   <itunes:image href="https://tiwarishashank.github.io/india-news-now/cover-navy.jpg"/>
@@ -16,6 +16,17 @@
   <itunes:category text="News"><itunes:category text="Daily News"/></itunes:category>
   <itunes:explicit>false</itunes:explicit>
   <itunes:type>episodic</itunes:type>
+  <item>
+    <title>India News Today – Wednesday, October 28, 2026</title>
+    <description>Cyclone Arnab has crossed the Andhra Pradesh coast and is now weakening. The India Meteorological Department says the very severe cyclonic storm made landfall near Narsapur in West Godavari district early Wednesday, with winds gusting to one hundred and fifty kilometers an hour, before weakening into a severe cyclonic storm over land. The Hindu reports five people have been killed in the state. Ch…</description>
+    <itunes:summary>Cyclone Arnab has crossed the Andhra Pradesh coast and is now weakening. The India Meteorological Department says the very severe cyclonic storm made landfall near Narsapur in West Godavari district early Wednesday, with winds gusting to one hundred and fifty kilometers an hour, before weakening into a severe cyclonic storm over land. The Hindu reports five people have been killed in the state. Ch…</itunes:summary>
+    <guid isPermaLink="false">india-news-now-2026-10-28</guid>
+    <pubDate>Wed, 28 Oct 2026 06:47:00 -0700</pubDate>
+    <enclosure url="https://tiwarishashank.github.io/india-news-now/episodes/2026-10-28.mp3" length="2051074" type="audio/mpeg"/>
+    <itunes:duration>00:02:51</itunes:duration>
+    <itunes:episodeType>full</itunes:episodeType>
+    <itunes:explicit>false</itunes:explicit>
+  </item>
   <item>
     <title>India News Today – Tuesday, October 27, 2026</title>
     <description>Cyclone Arnab is closing in on India&#x27;s east coast. The India Meteorological Department says the very severe cyclonic storm was about one hundred and forty kilometers from Kakinada on Tuesday afternoon, and is expected to cross the Andhra Pradesh coast just south of Yanam by Wednesday forenoon, with winds gusting to one hundred and fifty kilometers an hour. A storm surge of one to two meters could …</description>
