@@ -8,7 +8,7 @@
   <itunes:summary>A daily two-to-three minute bulletin of India&#x27;s top news: politics, business and markets, entertainment and cricket. Nisha is an AI-voiced newsreader; stories are researched and checked by an AI assistant.</itunes:summary>
   <language>en</language>
   <copyright>© 2026 Shashank Tiwari</copyright>
-  <lastBuildDate>Thu, 29 Oct 2026 13:55:15 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 30 Oct 2026 13:56:42 +0000</lastBuildDate>
   <itunes:author>India News Today</itunes:author>
   <itunes:owner><itunes:name>India News Today</itunes:name><itunes:email>shashank.iitb@gmail.com</itunes:email></itunes:owner>
   <itunes:image href="https://tiwarishashank.github.io/india-news-now/cover-navy.jpg"/>
@@ -16,6 +16,17 @@
   <itunes:category text="News"><itunes:category text="Daily News"/></itunes:category>
   <itunes:explicit>false</itunes:explicit>
   <itunes:type>episodic</itunes:type>
+  <item>
+    <title>India News Today – Friday, October 30, 2026</title>
+    <description>A helicopter crashed in Uttarakhand on Friday afternoon, killing all six people on board, including the pilot. The Trans Bharat Aviation helicopter was flying from Badrinath to Dehradun when it went down near Joshimath in Chamoli district amid rain and heavy cloud. Officials say it lost contact shortly after takeoff.</description>
+    <itunes:summary>A helicopter crashed in Uttarakhand on Friday afternoon, killing all six people on board, including the pilot. The Trans Bharat Aviation helicopter was flying from Badrinath to Dehradun when it went down near Joshimath in Chamoli district amid rain and heavy cloud. Officials say it lost contact shortly after takeoff.</itunes:summary>
+    <guid isPermaLink="false">india-news-now-2026-10-30</guid>
+    <pubDate>Fri, 30 Oct 2026 06:47:00 -0700</pubDate>
+    <enclosure url="https://tiwarishashank.github.io/india-news-now/episodes/2026-10-30.mp3" length="1958287" type="audio/mpeg"/>
+    <itunes:duration>00:02:43</itunes:duration>
+    <itunes:episodeType>full</itunes:episodeType>
+    <itunes:explicit>false</itunes:explicit>
+  </item>
   <item>
     <title>India News Today – Thursday, October 29, 2026</title>
     <description>The Supreme Court says banks and financial institutions must compensate victims of digital fraud if an investigation finds lapses in due diligence. The court said lenders need safeguards to flag suspicious transactions before money leaves an account, and should alert nearby police stations about unusual activity. The bench also said it would examine the Reserve Bank of India&#x27;s proposed new know-yo…</description>
