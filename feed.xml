@@ -8,7 +8,7 @@
   <itunes:summary>A daily two-to-three minute bulletin of India&#x27;s top news: politics, business and markets, entertainment and cricket. Nisha is an AI-voiced newsreader; stories are researched and checked by an AI assistant.</itunes:summary>
   <language>en</language>
   <copyright>© 2026 Shashank Tiwari</copyright>
-  <lastBuildDate>Fri, 30 Oct 2026 13:56:42 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 31 Oct 2026 13:51:30 +0000</lastBuildDate>
   <itunes:author>India News Today</itunes:author>
   <itunes:owner><itunes:name>India News Today</itunes:name><itunes:email>shashank.iitb@gmail.com</itunes:email></itunes:owner>
   <itunes:image href="https://tiwarishashank.github.io/india-news-now/cover-navy.jpg"/>
@@ -16,6 +16,17 @@
   <itunes:category text="News"><itunes:category text="Daily News"/></itunes:category>
   <itunes:explicit>false</itunes:explicit>
   <itunes:type>episodic</itunes:type>
+  <item>
+    <title>India News Today – Saturday, October 31, 2026</title>
+    <description>India&#x27;s opposition held what it called a public impeachment of Chief Election Commissioner Gyanesh Kumar on Saturday. The symbolic event, postponed a day by rain, took place at Congress president Mallikarjun Kharge&#x27;s home in New Delhi, with former Lok Sabha Speaker Meira Kumar presiding. Kharge moved a resolution listing six charges, including the deletion of thirteen point two crore voters during…</description>
+    <itunes:summary>India&#x27;s opposition held what it called a public impeachment of Chief Election Commissioner Gyanesh Kumar on Saturday. The symbolic event, postponed a day by rain, took place at Congress president Mallikarjun Kharge&#x27;s home in New Delhi, with former Lok Sabha Speaker Meira Kumar presiding. Kharge moved a resolution listing six charges, including the deletion of thirteen point two crore voters during…</itunes:summary>
+    <guid isPermaLink="false">india-news-now-2026-10-31</guid>
+    <pubDate>Sat, 31 Oct 2026 06:47:00 -0700</pubDate>
+    <enclosure url="https://tiwarishashank.github.io/india-news-now/episodes/2026-10-31.mp3" length="2068315" type="audio/mpeg"/>
+    <itunes:duration>00:02:52</itunes:duration>
+    <itunes:episodeType>full</itunes:episodeType>
+    <itunes:explicit>false</itunes:explicit>
+  </item>
   <item>
     <title>India News Today – Friday, October 30, 2026</title>
     <description>A helicopter crashed in Uttarakhand on Friday afternoon, killing all six people on board, including the pilot. The Trans Bharat Aviation helicopter was flying from Badrinath to Dehradun when it went down near Joshimath in Chamoli district amid rain and heavy cloud. Officials say it lost contact shortly after takeoff.</description>
