@@ -8,7 +8,7 @@
   <itunes:summary>A daily two-to-three minute bulletin of India&#x27;s top news: politics, business and markets, entertainment and cricket. Nisha is an AI-voiced newsreader; stories are researched and checked by an AI assistant.</itunes:summary>
   <language>en</language>
   <copyright>© 2026 Shashank Tiwari</copyright>
-  <lastBuildDate>Wed, 04 Nov 2026 14:55:59 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 05 Nov 2026 14:55:56 +0000</lastBuildDate>
   <itunes:author>India News Today</itunes:author>
   <itunes:owner><itunes:name>India News Today</itunes:name><itunes:email>shashank.iitb@gmail.com</itunes:email></itunes:owner>
   <itunes:image href="https://tiwarishashank.github.io/india-news-now/cover-navy.jpg"/>
@@ -16,6 +16,17 @@
   <itunes:category text="News"><itunes:category text="Daily News"/></itunes:category>
   <itunes:explicit>false</itunes:explicit>
   <itunes:type>episodic</itunes:type>
+  <item>
+    <title>India News Today – Thursday, November 5, 2026</title>
+    <description>Union Home Minister Amit Shah on Thursday challenged Congress leader Rahul Gandhi to seek a special session of Parliament on the Special Intensive Revision of electoral rolls. Speaking at a BJP Loktantra Bachao rally in Karnal, Haryana, Shah said the government was ready for debate if Gandhi wrote to Prime Minister Narendra Modi. He also asked Gandhi to account for his recent Vietnam visit, includ…</description>
+    <itunes:summary>Union Home Minister Amit Shah on Thursday challenged Congress leader Rahul Gandhi to seek a special session of Parliament on the Special Intensive Revision of electoral rolls. Speaking at a BJP Loktantra Bachao rally in Karnal, Haryana, Shah said the government was ready for debate if Gandhi wrote to Prime Minister Narendra Modi. He also asked Gandhi to account for his recent Vietnam visit, includ…</itunes:summary>
+    <guid isPermaLink="false">india-news-now-2026-11-05</guid>
+    <pubDate>Thu, 05 Nov 2026 06:47:00 -0800</pubDate>
+    <enclosure url="https://tiwarishashank.github.io/india-news-now/episodes/2026-11-05.mp3" length="1998411" type="audio/mpeg"/>
+    <itunes:duration>00:02:47</itunes:duration>
+    <itunes:episodeType>full</itunes:episodeType>
+    <itunes:explicit>false</itunes:explicit>
+  </item>
   <item>
     <title>India News Today – Wednesday, November 4, 2026</title>
     <description>The Union Cabinet has overhauled the Agnipath scheme. Chief of Defence Staff General N S Raja Subramani said Agniveers who finish their four-year tenure will still see the top twenty-five percent retained on merit. The remaining seventy-five percent will now be offered a two-year second engagement, with a path to join the armed forces as regular soldiers if they meet objective selection criteria. …</description>
