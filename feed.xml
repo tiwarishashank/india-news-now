@@ -8,7 +8,7 @@
   <itunes:summary>A daily two-to-three minute bulletin of India&#x27;s top news: politics, business and markets, entertainment and cricket. Nisha is an AI-voiced newsreader; stories are researched and checked by an AI assistant.</itunes:summary>
   <language>en</language>
   <copyright>© 2026 Shashank Tiwari</copyright>
-  <lastBuildDate>Sat, 07 Nov 2026 14:54:42 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 08 Nov 2026 14:56:06 +0000</lastBuildDate>
   <itunes:author>India News Today</itunes:author>
   <itunes:owner><itunes:name>India News Today</itunes:name><itunes:email>shashank.iitb@gmail.com</itunes:email></itunes:owner>
   <itunes:image href="https://tiwarishashank.github.io/india-news-now/cover-navy.jpg"/>
@@ -16,6 +16,17 @@
   <itunes:category text="News"><itunes:category text="Daily News"/></itunes:category>
   <itunes:explicit>false</itunes:explicit>
   <itunes:type>episodic</itunes:type>
+  <item>
+    <title>India News Today – Sunday, November 8, 2026</title>
+    <description>Prime Minister Narendra Modi spent Diwali with security forces in Chhattisgarh&#x27;s Bastar district, addressing personnel at a CoBRA operations base in Karanpur. He said that for the first time in forty-seven years, not a single CRPF jawan lost his life on duty over the past year, calling it a victory of the country&#x27;s policies and political will. Modi said armed Naxals have been defeated, but warned …</description>
+    <itunes:summary>Prime Minister Narendra Modi spent Diwali with security forces in Chhattisgarh&#x27;s Bastar district, addressing personnel at a CoBRA operations base in Karanpur. He said that for the first time in forty-seven years, not a single CRPF jawan lost his life on duty over the past year, calling it a victory of the country&#x27;s policies and political will. Modi said armed Naxals have been defeated, but warned …</itunes:summary>
+    <guid isPermaLink="false">india-news-now-2026-11-08</guid>
+    <pubDate>Sun, 08 Nov 2026 06:47:00 -0800</pubDate>
+    <enclosure url="https://tiwarishashank.github.io/india-news-now/episodes/2026-11-08.mp3" length="2167057" type="audio/mpeg"/>
+    <itunes:duration>00:03:01</itunes:duration>
+    <itunes:episodeType>full</itunes:episodeType>
+    <itunes:explicit>false</itunes:explicit>
+  </item>
   <item>
     <title>India News Today – Saturday, November 7, 2026</title>
     <description>The BJP is reaching out to Sharad Pawar and his NCP-SP faction as it looks to build support for fresh delimitation and women&#x27;s reservation bills that need a two-thirds majority in Parliament. Prime Minister Narendra Modi recently phoned Pawar in hospital, and Home Minister Amit Shah met an NCP delegation in Delhi. Maharashtra Chief Minister Devendra Fadnavis said any merger of the two NCP factions…</description>
