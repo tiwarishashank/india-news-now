@@ -8,7 +8,7 @@
   <itunes:summary>A daily two-to-three minute bulletin of India&#x27;s top news: politics, business and markets, entertainment and cricket. Nisha is an AI-voiced newsreader; stories are researched and checked by an AI assistant.</itunes:summary>
   <language>en</language>
   <copyright>© 2026 Shashank Tiwari</copyright>
-  <lastBuildDate>Mon, 09 Nov 2026 14:55:34 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 10 Nov 2026 14:52:18 +0000</lastBuildDate>
   <itunes:author>India News Today</itunes:author>
   <itunes:owner><itunes:name>India News Today</itunes:name><itunes:email>shashank.iitb@gmail.com</itunes:email></itunes:owner>
   <itunes:image href="https://tiwarishashank.github.io/india-news-now/cover-navy.jpg"/>
@@ -16,6 +16,17 @@
   <itunes:category text="News"><itunes:category text="Daily News"/></itunes:category>
   <itunes:explicit>false</itunes:explicit>
   <itunes:type>episodic</itunes:type>
+  <item>
+    <title>India News Today – Tuesday, November 10, 2026</title>
+    <description>Sonia Gandhi&#x27;s memoir, Belonging: A Journey of Love, was released on Tuesday, and it has already stirred a row. In the book, she writes that in twenty ten, Pranab Mukherjee &quot;shocked&quot; her by suggesting it was time for &quot;a change at the top,&quot; which she understood as a hint of his long-held desire to become prime minister. His daughter, Sharmistha Mukherjee, hit back on social media, asking, &quot;Is it a …</description>
+    <itunes:summary>Sonia Gandhi&#x27;s memoir, Belonging: A Journey of Love, was released on Tuesday, and it has already stirred a row. In the book, she writes that in twenty ten, Pranab Mukherjee &quot;shocked&quot; her by suggesting it was time for &quot;a change at the top,&quot; which she understood as a hint of his long-held desire to become prime minister. His daughter, Sharmistha Mukherjee, hit back on social media, asking, &quot;Is it a …</itunes:summary>
+    <guid isPermaLink="false">india-news-now-2026-11-10</guid>
+    <pubDate>Tue, 10 Nov 2026 06:47:00 -0800</pubDate>
+    <enclosure url="https://tiwarishashank.github.io/india-news-now/episodes/2026-11-10.mp3" length="2209689" type="audio/mpeg"/>
+    <itunes:duration>00:03:04</itunes:duration>
+    <itunes:episodeType>full</itunes:episodeType>
+    <itunes:explicit>false</itunes:explicit>
+  </item>
   <item>
     <title>India News Today – Monday, November 9, 2026</title>
     <description>Uttar Pradesh Chief Minister Yogi Adityanath says one point two seven crore Hindu voters are missing from the state&#x27;s Election Commission rolls after the Special Intensive Revision. He also claims the number of Muslim voters rose one point six five percent after the revision. The BJP has appealed to the poll body. The state&#x27;s chief electoral officer says he&#x27;ll answer all questions on November seve…</description>
