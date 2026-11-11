@@ -8,7 +8,7 @@
   <itunes:summary>A daily two-to-three minute bulletin of India&#x27;s top news: politics, business and markets, entertainment and cricket. Nisha is an AI-voiced newsreader; stories are researched and checked by an AI assistant.</itunes:summary>
   <language>en</language>
   <copyright>© 2026 Shashank Tiwari</copyright>
-  <lastBuildDate>Wed, 11 Nov 2026 14:57:22 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 11 Nov 2026 14:58:35 +0000</lastBuildDate>
   <itunes:author>India News Today</itunes:author>
   <itunes:owner><itunes:name>India News Today</itunes:name><itunes:email>shashank.iitb@gmail.com</itunes:email></itunes:owner>
   <itunes:image href="https://tiwarishashank.github.io/india-news-now/cover-navy.jpg"/>
@@ -18,12 +18,12 @@
   <itunes:type>episodic</itunes:type>
   <item>
     <title>India News Today – Wednesday, November 11, 2026</title>
-    <description>Gunmen on a motorcycle opened fire on a CRPF checkpoint in Jammu and Kashmir&#x27;s Kulgam district on Wednesday afternoon before fleeing. The CRPF says two of its personnel were injured, while other officials put the number at three, with one in critical condition. The Indian Express says it is the first terror attack there since July thirty-first. Lieutenant Governor Manoj Sinha was in Kulgam for a f…</description>
-    <itunes:summary>Gunmen on a motorcycle opened fire on a CRPF checkpoint in Jammu and Kashmir&#x27;s Kulgam district on Wednesday afternoon before fleeing. The CRPF says two of its personnel were injured, while other officials put the number at three, with one in critical condition. The Indian Express says it is the first terror attack there since July thirty-first. Lieutenant Governor Manoj Sinha was in Kulgam for a f…</itunes:summary>
+    <description>Gunmen on a motorcycle opened fire on a CRPF checkpoint in Jammu and Kashmir&#x27;s Kulgam district on Wednesday afternoon before fleeing. The CRPF says two of its personnel were injured, while other officials put the number at three, with one in critical condition. The Indian Express says it is the first terror attack there since July thirty-first. A search operation is under way.</description>
+    <itunes:summary>Gunmen on a motorcycle opened fire on a CRPF checkpoint in Jammu and Kashmir&#x27;s Kulgam district on Wednesday afternoon before fleeing. The CRPF says two of its personnel were injured, while other officials put the number at three, with one in critical condition. The Indian Express says it is the first terror attack there since July thirty-first. A search operation is under way.</itunes:summary>
     <guid isPermaLink="false">india-news-now-2026-11-11</guid>
     <pubDate>Wed, 11 Nov 2026 06:47:00 -0800</pubDate>
-    <enclosure url="https://tiwarishashank.github.io/india-news-now/episodes/2026-11-11.mp3" length="2146055" type="audio/mpeg"/>
-    <itunes:duration>00:02:59</itunes:duration>
+    <enclosure url="https://tiwarishashank.github.io/india-news-now/episodes/2026-11-11.mp3" length="1997157" type="audio/mpeg"/>
+    <itunes:duration>00:02:46</itunes:duration>
     <itunes:episodeType>full</itunes:episodeType>
     <itunes:explicit>false</itunes:explicit>
   </item>
