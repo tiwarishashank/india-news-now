@@ -8,7 +8,7 @@
   <itunes:summary>A daily two-to-three minute bulletin of India&#x27;s top news: politics, business and markets, entertainment and cricket. Nisha is an AI-voiced newsreader; stories are researched and checked by an AI assistant.</itunes:summary>
   <language>en</language>
   <copyright>© 2026 Shashank Tiwari</copyright>
-  <lastBuildDate>Wed, 11 Nov 2026 14:58:35 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 12 Nov 2026 14:55:35 +0000</lastBuildDate>
   <itunes:author>India News Today</itunes:author>
   <itunes:owner><itunes:name>India News Today</itunes:name><itunes:email>shashank.iitb@gmail.com</itunes:email></itunes:owner>
   <itunes:image href="https://tiwarishashank.github.io/india-news-now/cover-navy.jpg"/>
@@ -16,6 +16,17 @@
   <itunes:category text="News"><itunes:category text="Daily News"/></itunes:category>
   <itunes:explicit>false</itunes:explicit>
   <itunes:type>episodic</itunes:type>
+  <item>
+    <title>India News Today – Thursday, November 12, 2026</title>
+    <description>Security forces in Jammu and Kashmir have recovered the bullet-riddled bodies of two Special Police Officers in Kishtwar district. Police named them as Rachpal Kumar and Bobby Chand. The two went missing on Wednesday from a border area, and their bodies were found in the Dacchan forest with their service weapons gone. It came hours after three CRPF personnel were wounded in a gun attack on a check…</description>
+    <itunes:summary>Security forces in Jammu and Kashmir have recovered the bullet-riddled bodies of two Special Police Officers in Kishtwar district. Police named them as Rachpal Kumar and Bobby Chand. The two went missing on Wednesday from a border area, and their bodies were found in the Dacchan forest with their service weapons gone. It came hours after three CRPF personnel were wounded in a gun attack on a check…</itunes:summary>
+    <guid isPermaLink="false">india-news-now-2026-11-12</guid>
+    <pubDate>Thu, 12 Nov 2026 06:47:00 -0800</pubDate>
+    <enclosure url="https://tiwarishashank.github.io/india-news-now/episodes/2026-11-12.mp3" length="2224422" type="audio/mpeg"/>
+    <itunes:duration>00:03:05</itunes:duration>
+    <itunes:episodeType>full</itunes:episodeType>
+    <itunes:explicit>false</itunes:explicit>
+  </item>
   <item>
     <title>India News Today – Wednesday, November 11, 2026</title>
     <description>Gunmen on a motorcycle opened fire on a CRPF checkpoint in Jammu and Kashmir&#x27;s Kulgam district on Wednesday afternoon before fleeing. The CRPF says two of its personnel were injured, while other officials put the number at three, with one in critical condition. The Indian Express says it is the first terror attack there since July thirty-first. A search operation is under way.</description>
