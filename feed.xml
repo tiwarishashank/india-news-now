@@ -8,7 +8,7 @@
   <itunes:summary>A daily two-to-three minute bulletin of India&#x27;s top news: politics, business and markets, entertainment and cricket. Nisha is an AI-voiced newsreader; stories are researched and checked by an AI assistant.</itunes:summary>
   <language>en</language>
   <copyright>© 2026 Shashank Tiwari</copyright>
-  <lastBuildDate>Sun, 15 Nov 2026 18:55:44 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 15 Nov 2026 18:56:59 +0000</lastBuildDate>
   <itunes:author>India News Today</itunes:author>
   <itunes:owner><itunes:name>India News Today</itunes:name><itunes:email>shashank.iitb@gmail.com</itunes:email></itunes:owner>
   <itunes:image href="https://tiwarishashank.github.io/india-news-now/cover-navy.jpg"/>
@@ -16,6 +16,17 @@
   <itunes:category text="News"><itunes:category text="Daily News"/></itunes:category>
   <itunes:explicit>false</itunes:explicit>
   <itunes:type>episodic</itunes:type>
+  <item>
+    <title>India News Today – Saturday, November 14, 2026</title>
+    <description>External Affairs Minister S Jaishankar says a trade deal with the United States is approaching the finishing line and could be sealed soon. Speaking at the Hindustan Times Leadership Summit, he said the bulk of the issues have been sorted out, and that many of the remaining ones are not so much at India&#x27;s end. Prime Minister Narendra Modi is likely to visit the US for the G twenty Summit next mont…</description>
+    <itunes:summary>External Affairs Minister S Jaishankar says a trade deal with the United States is approaching the finishing line and could be sealed soon. Speaking at the Hindustan Times Leadership Summit, he said the bulk of the issues have been sorted out, and that many of the remaining ones are not so much at India&#x27;s end. Prime Minister Narendra Modi is likely to visit the US for the G twenty Summit next mont…</itunes:summary>
+    <guid isPermaLink="false">india-news-now-2026-11-14</guid>
+    <pubDate>Sat, 14 Nov 2026 06:47:00 -0800</pubDate>
+    <enclosure url="https://tiwarishashank.github.io/india-news-now/episodes/2026-11-14.mp3" length="2085555" type="audio/mpeg"/>
+    <itunes:duration>00:02:54</itunes:duration>
+    <itunes:episodeType>full</itunes:episodeType>
+    <itunes:explicit>false</itunes:explicit>
+  </item>
   <item>
     <title>India News Today – Friday, November 13, 2026</title>
     <description>The External Affairs Ministry says India has a national policy on Pakistan and expects everyone to follow it. Spokesperson Randhir Jaiswal was asked about an invitation to Punjab Chief Minister Bhagwant Mann to be chief guest at an international Punjabi conference in Lahore on November twenty-seventh. Jaiswal said political clearance for such trips is assessed in line with that policy, and that In…</description>
