@@ -8,7 +8,7 @@
   <itunes:summary>A daily two-to-three minute bulletin of India&#x27;s top news: politics, business and markets, entertainment and cricket. Nisha is an AI-voiced newsreader; stories are researched and checked by an AI assistant.</itunes:summary>
   <language>en</language>
   <copyright>© 2026 Shashank Tiwari</copyright>
-  <lastBuildDate>Mon, 16 Nov 2026 14:59:05 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 17 Nov 2026 14:56:11 +0000</lastBuildDate>
   <itunes:author>India News Today</itunes:author>
   <itunes:owner><itunes:name>India News Today</itunes:name><itunes:email>shashank.iitb@gmail.com</itunes:email></itunes:owner>
   <itunes:image href="https://tiwarishashank.github.io/india-news-now/cover-navy.jpg"/>
@@ -16,6 +16,17 @@
   <itunes:category text="News"><itunes:category text="Daily News"/></itunes:category>
   <itunes:explicit>false</itunes:explicit>
   <itunes:type>episodic</itunes:type>
+  <item>
+    <title>India News Today – Tuesday, November 17, 2026</title>
+    <description>Prime Minister Narendra Modi has joined President Donald Trump and the prime ministers of Australia and Japan in Manila for the first in-person Quad summit since twenty twenty-four. Mr. Modi called the Quad a constructive and trusted partnership. Mr. Trump called Mr. Modi a very tough man. The leaders announced a business leaders&#x27; forum, an artificial intelligence initiative, and new cooperation o…</description>
+    <itunes:summary>Prime Minister Narendra Modi has joined President Donald Trump and the prime ministers of Australia and Japan in Manila for the first in-person Quad summit since twenty twenty-four. Mr. Modi called the Quad a constructive and trusted partnership. Mr. Trump called Mr. Modi a very tough man. The leaders announced a business leaders&#x27; forum, an artificial intelligence initiative, and new cooperation o…</itunes:summary>
+    <guid isPermaLink="false">india-news-now-2026-11-17</guid>
+    <pubDate>Tue, 17 Nov 2026 06:47:00 -0800</pubDate>
+    <enclosure url="https://tiwarishashank.github.io/india-news-now/episodes/2026-11-17.mp3" length="2194016" type="audio/mpeg"/>
+    <itunes:duration>00:03:03</itunes:duration>
+    <itunes:episodeType>full</itunes:episodeType>
+    <itunes:explicit>false</itunes:explicit>
+  </item>
   <item>
     <title>India News Today – Monday, November 16, 2026</title>
     <description>Prime Minister Narendra Modi has arrived in Manila for the ASEAN-India Summit and the East Asia Summit, both on Tuesday. He later attended a gala dinner hosted by Philippine President Ferdinand Marcos Junior. The White House says President Donald Trump will join a Quad leaders&#x27; meeting in Manila on Tuesday evening with Mr. Modi and the prime ministers of Australia and Japan. It would be the first …</description>
