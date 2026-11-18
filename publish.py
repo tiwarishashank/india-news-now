@@ -72,6 +72,8 @@ def tts(text_ssml,out):
 def duration(p):
     return float(subprocess.check_output(["ffprobe","-v","error","-show_entries","format=duration","-of","csv=p=0",p]).strip())
 JINGLE=os.path.join(REPO,"jingle.mp3")
+SIGNOFF=os.path.join(REPO,"signoff.mp3")
+SIGNOFF_TEXT="That's India News Today. I'm Nisha."
 OVERLAP=0.3
 OUTRO_GAP=0.6
 MAX_SEC=238
@@ -148,12 +150,24 @@ def main():
     mp3=f"{REPO}/episodes/{date}.mp3"
     with tempfile.TemporaryDirectory() as td:
         parts=[]
-        for i,c in enumerate(chunks(paras)):
+        # The closing line uses a fixed pre-approved take (signoff.mp3) with a falling, statement-like ending,
+        # because the HD voice sometimes reads "I'm Nisha." with a rising, question-like tone.
+        speak=paras
+        use_signoff=os.path.exists(SIGNOFF) and paras and re.sub(r"[^a-z]","",paras[-1].lower()).endswith(re.sub(r"[^a-z]","",SIGNOFF_TEXT.lower()))
+        if use_signoff:
+            last=paras[-1]; idx=last.lower().rfind("that's india news today")
+            rest=last[:idx].strip() if idx>0 else ""
+            speak=paras[:-1]+([rest] if rest else [])
+        for i,c in enumerate(chunks(speak)):
             p=f"{td}/p{i}.mp3"; tts(ssml(c),p); parts.append(p)
+        if use_signoff:
+            sil=f"{td}/sil.mp3"
+            subprocess.run(["ffmpeg","-y","-loglevel","error","-f","lavfi","-i","anullsrc=r=24000:cl=mono","-t","0.7","-ar","24000","-ac","1","-b:a","96k",sil],check=True)
+            parts+= [sil,SIGNOFF]; print("fixed sign-off take appended")
         if len(parts)==1: shutil.copy(parts[0],mp3)
         else:
             open(f"{td}/l.txt","w").write("".join(f"file '{p}'\n" for p in parts))
-            subprocess.run(["ffmpeg","-y","-loglevel","error","-f","concat","-safe","0","-i",f"{td}/l.txt","-c","copy",mp3],check=True)
+            subprocess.run(["ffmpeg","-y","-loglevel","error","-f","concat","-safe","0","-i",f"{td}/l.txt","-ar","24000","-ac","1","-b:a","96k",mp3],check=True)
         if os.path.exists(JINGLE):
             v=f"{td}/voice.mp3"; shutil.move(mp3,v); add_jingle(v,JINGLE,mp3); print("jingle added")
     dur=duration(mp3)
