@@ -14,7 +14,7 @@ FEED_LANGUAGE="en"
 KEEP=60
 TITLE="India News Today"
 AUTHOR="India News Today"
-DESC=("Daily India news in under three minutes, every morning. India News Today is a quick news briefing on Indian politics, "
+DESC=("Daily India news in a few minutes, every morning. India News Today is a quick news briefing on Indian politics, "
       "the economy, Sensex and Nifty markets, the rupee, Bollywood and entertainment, and cricket, made for busy listeners in India "
       "and the Indian diaspora in the US, UK, Canada and around the world. New episode daily. "
       "Nisha is an AI-voiced newsreader; stories are researched and checked by an AI assistant from reputable Indian news outlets.")
@@ -62,7 +62,7 @@ def duration(p):
 JINGLE=os.path.join(REPO,"jingle.mp3")
 OVERLAP=0.3
 OUTRO_GAP=0.6
-MAX_SEC=178
+MAX_SEC=238
 def add_jingle(voice,jingle,out,overlap=OVERLAP):
     """Jingle at the start (crossfaded into the voice) and again at the end after a short pause; loudness-normalize to -16 LUFS."""
     subprocess.run(["ffmpeg","-y","-loglevel","error","-i",jingle,"-i",voice,"-filter_complex",
@@ -147,7 +147,7 @@ def main():
     dur=duration(mp3)
     if dur>MAX_SEC:
         bar="!"*70
-        print(f"{bar}\nWARNING: episode is {dur:.1f}s ({hms(dur)}), over the {MAX_SEC}s guard; trim the script next time (target 2:45-2:55, never over 3:00)\n{bar}",file=sys.stderr)
+        print(f"{bar}\nWARNING: episode is {dur:.1f}s ({hms(dur)}), over the {MAX_SEC}s guard; trim the script next time (news-driven length up to 3:55, never over 4:00)\n{bar}",file=sys.stderr)
     else: print(f"duration {dur:.1f}s")
     sp=f"{REPO}/scripts/{date}.txt"
     if os.path.abspath(a.script)!=os.path.abspath(sp): shutil.copy(a.script,sp)
