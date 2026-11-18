@@ -14,8 +14,10 @@ FEED_LANGUAGE="en"
 KEEP=60
 TITLE="India News Today"
 AUTHOR="India News Today"
-DESC=("A daily two-to-three minute bulletin of India's top news: politics, business and markets, entertainment and cricket. "
-      "Nisha is an AI-voiced newsreader; stories are researched and checked by an AI assistant.")
+DESC=("Daily India news in under three minutes, every morning. India News Today is a quick news briefing on Indian politics, "
+      "the economy, Sensex and Nifty markets, the rupee, Bollywood and entertainment, and cricket, made for busy listeners in India "
+      "and the Indian diaspora in the US, UK, Canada and around the world. New episode daily. "
+      "Nisha is an AI-voiced newsreader; stories are researched and checked by an AI assistant from reputable Indian news outlets.")
 ORD=["","first","second","third","fourth","fifth","sixth","seventh","eighth","ninth","tenth","eleventh","twelfth","thirteenth","fourteenth","fifteenth","sixteenth","seventeenth","eighteenth","nineteenth","twentieth","twenty-first","twenty-second","twenty-third","twenty-fourth","twenty-fifth","twenty-sixth","twenty-seventh","twenty-eighth","twenty-ninth","thirtieth","thirty-first"]
 MONTHS={"jan":"January","feb":"February","mar":"March","apr":"April","may":"May","jun":"June","jul":"July","aug":"August","sep":"September","sept":"September","oct":"October","nov":"November","dec":"December"}
 def speak_dates(t):
@@ -121,7 +123,7 @@ def git_net(*args,attempts=5,timeout=120):
             print(f"git {' '.join(args)} failed ({why}); retry {i+2}/{attempts} in {w}s",file=sys.stderr); time.sleep(w)
     raise SystemExit(f"ERROR: git {' '.join(args)} failed after {attempts} attempts ({why}); episode built locally but NOT published")
 def main():
-    ap=argparse.ArgumentParser(); ap.add_argument("script"); ap.add_argument("--date"); ap.add_argument("--no-push",action="store_true")
+    ap=argparse.ArgumentParser(); ap.add_argument("script"); ap.add_argument("--date"); ap.add_argument("--no-push",action="store_true"); ap.add_argument("--headline",help="episode title headline, e.g. 'Dhoni retires from IPL, Quad meets in Manila'")
     a=ap.parse_args()
     ensure_ffmpeg()
     date=a.date or datetime.datetime.now(ZoneInfo("America/Los_Angeles")).date().isoformat()
@@ -154,7 +156,7 @@ def main():
     eps=[e for e in eps if e["date"]!=date]
     pub=datetime.datetime.combine(d,datetime.time(6,47),ZoneInfo("America/Los_Angeles"))
     summary=paras[1] if len(paras)>1 else paras[0]
-    eps.append({"date":date,"title":f"India News Today – {d.strftime('%A, %B')} {d.day}, {d.year}",
+    eps.append({"date":date,"title":(f"{a.headline.strip()} | {d.strftime('%a, %b')} {d.day}" if a.headline else f"India News Today – {d.strftime('%A, %B')} {d.day}, {d.year}"),
         "description":(summary[:400]+("…" if len(summary)>400 else "")),
         "pubDate":format_datetime(pub),"length":os.path.getsize(mp3),"duration":hms(duration(mp3))})
     eps.sort(key=lambda e:e["date"],reverse=True)
