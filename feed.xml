@@ -8,7 +8,7 @@
   <itunes:summary>Daily India news in a few minutes, every morning. India News Today is a quick news briefing on Indian politics, the economy, Sensex and Nifty markets, the rupee, Bollywood and entertainment, and cricket, made for busy listeners in India and the Indian diaspora in the US, UK, Canada and around the world. New episode daily. Nisha is an AI-voiced newsreader; stories are researched and checked by an AI assistant from reputable Indian news outlets.</itunes:summary>
   <language>en</language>
   <copyright>© 2026 Shashank Tiwari</copyright>
-  <lastBuildDate>Thu, 19 Nov 2026 14:54:47 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 20 Nov 2026 14:53:05 +0000</lastBuildDate>
   <itunes:author>India News Today</itunes:author>
   <itunes:owner><itunes:name>India News Today</itunes:name><itunes:email>shashank.iitb@gmail.com</itunes:email></itunes:owner>
   <itunes:image href="https://tiwarishashank.github.io/india-news-now/cover-navy.jpg"/>
@@ -16,6 +16,17 @@
   <itunes:category text="News"><itunes:category text="Daily News"/></itunes:category>
   <itunes:explicit>false</itunes:explicit>
   <itunes:type>episodic</itunes:type>
+  <item>
+    <title>Cyclone Akvan hits Odisha, Sensex jumps, Congress wins Rajasthan polls | Fri, Nov 20</title>
+    <description>Cyclone Akvan has crossed the coast near Gopalpur in south Odisha, and officials say there have been no reports of deaths. The storm made landfall between seven thirty and eight thirty on Friday morning, India time, with winds of seventy to eighty kilometres an hour, gusting to ninety, and has since weakened into a deep depression. Parts of Ganjam district got around two hundred millimetres of rai…</description>
+    <itunes:summary>Cyclone Akvan has crossed the coast near Gopalpur in south Odisha, and officials say there have been no reports of deaths. The storm made landfall between seven thirty and eight thirty on Friday morning, India time, with winds of seventy to eighty kilometres an hour, gusting to ninety, and has since weakened into a deep depression. Parts of Ganjam district got around two hundred millimetres of rai…</itunes:summary>
+    <guid isPermaLink="false">india-news-now-2026-11-20</guid>
+    <pubDate>Fri, 20 Nov 2026 06:47:00 -0800</pubDate>
+    <enclosure url="https://tiwarishashank.github.io/india-news-now/episodes/2026-11-20.mp3" length="2555133" type="audio/mpeg"/>
+    <itunes:duration>00:03:33</itunes:duration>
+    <itunes:episodeType>full</itunes:episodeType>
+    <itunes:explicit>false</itunes:explicit>
+  </item>
   <item>
     <title>Cyclone Akvan heads for Odisha, Sensex jumps 990 points | Thu, Nov 19</title>
     <description>Cyclone Akvan has changed course and is now headed for the Odisha coast. The India Meteorological Department says the severe cyclonic storm is likely to cross the coast between Narsapur in Andhra Pradesh and Puri in Odisha, close to Gopalpur, by noon on Friday, India time, with winds of ninety to one hundred kilometres an hour, gusting to one hundred and ten. That is weaker than earlier forecast. …</description>
