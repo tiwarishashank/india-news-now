@@ -1,11 +1,73 @@
 {
  "_note": "Pronunciation fixes applied by publish.py before speech. Each rule: 'word' (case-insensitive whole word), 'ipa' for how to say it, and optional 'skip_after' / 'skip_before' word lists where the other meaning is meant (rule not applied). Add new words here when Shashank reports a mispronunciation.",
  "rules": [
-  {"word": "winds", "ipa": "wɪndz", "meaning": "weather noun, not 'winds down'",
-   "skip_after": ["it","he","she","that","which","road","river","path","trail","series","session","season","year","day","event"],
-   "skip_before": ["down","through","its","his","her","their","around"]},
-  {"word": "wind", "ipa": "wɪnd", "meaning": "weather noun, not 'wind down'",
-   "skip_after": ["to","will","would","could","should","may","might","must","can","they","we"],
-   "skip_before": ["down","through","its","his","her","their","around"]}
+  {
+   "word": "winds",
+   "ipa": "wɪndz",
+   "meaning": "weather noun, not 'winds down'",
+   "skip_after": [
+    "it",
+    "he",
+    "she",
+    "that",
+    "which",
+    "road",
+    "river",
+    "path",
+    "trail",
+    "series",
+    "session",
+    "season",
+    "year",
+    "day",
+    "event"
+   ],
+   "skip_before": [
+    "down",
+    "through",
+    "its",
+    "his",
+    "her",
+    "their",
+    "around"
+   ]
+  },
+  {
+   "word": "wind",
+   "ipa": "wɪnd",
+   "meaning": "weather noun, not 'wind down'",
+   "skip_after": [
+    "to",
+    "will",
+    "would",
+    "could",
+    "should",
+    "may",
+    "might",
+    "must",
+    "can",
+    "they",
+    "we"
+   ],
+   "skip_before": [
+    "down",
+    "through",
+    "its",
+    "his",
+    "her",
+    "their",
+    "around"
+   ]
+  },
+  {
+   "word": "second",
+   "ipa": "ˈsɛkənd",
+   "meaning": "ordinal/time unit, said SEK-und"
+  },
+  {
+   "word": "seconds",
+   "ipa": "ˈsɛkəndz",
+   "meaning": "time unit, said SEK-undz"
+  }
  ]
 }
