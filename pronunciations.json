@@ -1,5 +1,5 @@
 {
- "_note": "Pronunciation fixes applied by publish.py before speech. Each rule: 'word' (case-insensitive whole word), 'ipa' for how to say it, and optional 'skip_after' / 'skip_before' word lists where the other meaning is meant (rule not applied). Add new words here when Shashank reports a mispronunciation.",
+ "_note": "Pronunciation fixes applied by publish.py before speech. Each rule: 'word' (case-insensitive whole word), 'ipa' for how to say it, and optional 'skip_after' / 'skip_before' word lists where the other meaning is meant (rule not applied). Add new words here when Shashank reports a mispronunciation. A rule may use 'alias' (spoken spelling via <sub>) instead of 'ipa'.",
  "rules": [
   {
    "word": "winds",
@@ -73,6 +73,11 @@
    "word": "Pant",
    "ipa": "pʌnt",
    "meaning": "Rishabh Pant, vowel as in 'month'"
+  },
+  {
+   "word": "Wellington",
+   "alias": "Well-ington",
+   "meaning": "WELL-ington; IPA sounded off, alias picked by Shashank"
   }
  ]
 }

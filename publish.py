@@ -48,6 +48,7 @@ def pronounce(t):
         def f(m):
             prev=re.findall(r"[A-Za-z']+",t[:m.start()][-30:]); nxt=re.findall(r"[A-Za-z']+",t[m.end():m.end()+30])
             if (prev and prev[-1].lower() in after) or (nxt and nxt[0].lower() in before): return m.group(0)
+            if r.get("alias"): return f'<sub alias="{r["alias"]}">{m.group(0)}</sub>'
             return f'<phoneme alphabet="ipa" ph="{r["ipa"]}">{m.group(0)}</phoneme>'
         t=re.sub(rf"(?<![<\w]){re.escape(r['word'])}\b",f,t,flags=re.I)
     return t
