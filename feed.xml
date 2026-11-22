@@ -8,7 +8,7 @@
   <itunes:summary>Daily India news in a few minutes, every morning. India News Today is a quick news briefing on Indian politics, the economy, Sensex and Nifty markets, the rupee, Bollywood and entertainment, and cricket, made for busy listeners in India and the Indian diaspora in the US, UK, Canada and around the world. New episode daily. Nisha is an AI-voiced newsreader; stories are researched and checked by an AI assistant from reputable Indian news outlets.</itunes:summary>
   <language>en</language>
   <copyright>© 2026 Shashank Tiwari</copyright>
-  <lastBuildDate>Sat, 21 Nov 2026 14:54:24 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 22 Nov 2026 14:56:24 +0000</lastBuildDate>
   <itunes:author>India News Today</itunes:author>
   <itunes:owner><itunes:name>India News Today</itunes:name><itunes:email>shashank.iitb@gmail.com</itunes:email></itunes:owner>
   <itunes:image href="https://tiwarishashank.github.io/india-news-now/cover-navy.jpg"/>
@@ -16,6 +16,17 @@
   <itunes:category text="News"><itunes:category text="Daily News"/></itunes:category>
   <itunes:explicit>false</itunes:explicit>
   <itunes:type>episodic</itunes:type>
+  <item>
+    <title>Nepal PM Balen Shah in Delhi, India post record 720 in Wellington | Sun, Nov 22</title>
+    <description>Nepal&#x27;s Prime Minister Balendra Shah, known as Balen, has arrived in New Delhi on his first bilateral foreign visit since taking office in March. The rapper-turned-politician is visiting at Prime Minister Narendra Modi&#x27;s invitation. The two leaders will hold delegation-level talks on Monday, followed by a joint press conference. Mr. Shah is also set to meet President Droupadi Murmu and External Af…</description>
+    <itunes:summary>Nepal&#x27;s Prime Minister Balendra Shah, known as Balen, has arrived in New Delhi on his first bilateral foreign visit since taking office in March. The rapper-turned-politician is visiting at Prime Minister Narendra Modi&#x27;s invitation. The two leaders will hold delegation-level talks on Monday, followed by a joint press conference. Mr. Shah is also set to meet President Droupadi Murmu and External Af…</itunes:summary>
+    <guid isPermaLink="false">india-news-now-2026-11-22</guid>
+    <pubDate>Sun, 22 Nov 2026 06:47:00 -0800</pubDate>
+    <enclosure url="https://tiwarishashank.github.io/india-news-now/episodes/2026-11-22.mp3" length="2413444" type="audio/mpeg"/>
+    <itunes:duration>00:03:21</itunes:duration>
+    <itunes:episodeType>full</itunes:episodeType>
+    <itunes:explicit>false</itunes:explicit>
+  </item>
   <item>
     <title>KL Rahul century puts India ahead in Wellington, Manipur liquor deaths | Sat, Nov 21</title>
     <description>At least thirteen people have died and more than three hundred have been taken to hospital after drinking spurious liquor in Manipur&#x27;s Chandel district, police said on Saturday. The illness began on November eighteenth. Most of the patients are from Chakpikarong and nearby areas, and they are being treated at several hospitals in Imphal.</description>
