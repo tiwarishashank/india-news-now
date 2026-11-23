@@ -8,7 +8,7 @@
   <itunes:summary>Daily India news in a few minutes, every morning. India News Today is a quick news briefing on Indian politics, the economy, Sensex and Nifty markets, the rupee, Bollywood and entertainment, and cricket, made for busy listeners in India and the Indian diaspora in the US, UK, Canada and around the world. New episode daily. Nisha is an AI-voiced newsreader; stories are researched and checked by an AI assistant from reputable Indian news outlets.</itunes:summary>
   <language>en</language>
   <copyright>© 2026 Shashank Tiwari</copyright>
-  <lastBuildDate>Sun, 22 Nov 2026 14:56:24 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 23 Nov 2026 14:55:29 +0000</lastBuildDate>
   <itunes:author>India News Today</itunes:author>
   <itunes:owner><itunes:name>India News Today</itunes:name><itunes:email>shashank.iitb@gmail.com</itunes:email></itunes:owner>
   <itunes:image href="https://tiwarishashank.github.io/india-news-now/cover-navy.jpg"/>
@@ -16,6 +16,17 @@
   <itunes:category text="News"><itunes:category text="Daily News"/></itunes:category>
   <itunes:explicit>false</itunes:explicit>
   <itunes:type>episodic</itunes:type>
+  <item>
+    <title>India announces Rs 15,000 crore Nepal package, Sensex falls 1,484 | Mon, Nov 23</title>
+    <description>India has announced a development package of about fifteen thousand crore rupees for Nepal, as Prime Minister Narendra Modi hosted Nepal&#x27;s Prime Minister Balendra Shah in New Delhi. The package includes three thousand five hundred crore rupees in grants for post-disaster reconstruction and new infrastructure, and an eleven thousand five hundred crore rupee line of credit for energy projects. The t…</description>
+    <itunes:summary>India has announced a development package of about fifteen thousand crore rupees for Nepal, as Prime Minister Narendra Modi hosted Nepal&#x27;s Prime Minister Balendra Shah in New Delhi. The package includes three thousand five hundred crore rupees in grants for post-disaster reconstruction and new infrastructure, and an eleven thousand five hundred crore rupee line of credit for energy projects. The t…</itunes:summary>
+    <guid isPermaLink="false">india-news-now-2026-11-23</guid>
+    <pubDate>Mon, 23 Nov 2026 06:47:00 -0800</pubDate>
+    <enclosure url="https://tiwarishashank.github.io/india-news-now/episodes/2026-11-23.mp3" length="2591808" type="audio/mpeg"/>
+    <itunes:duration>00:03:36</itunes:duration>
+    <itunes:episodeType>full</itunes:episodeType>
+    <itunes:explicit>false</itunes:explicit>
+  </item>
   <item>
     <title>Nepal PM Balen Shah in Delhi, India post record 720 in Wellington | Sun, Nov 22</title>
     <description>Nepal&#x27;s Prime Minister Balendra Shah, known as Balen, has arrived in New Delhi on his first bilateral foreign visit since taking office in March. The rapper-turned-politician is visiting at Prime Minister Narendra Modi&#x27;s invitation. The two leaders will hold delegation-level talks on Monday, followed by a joint press conference. Mr. Shah is also set to meet President Droupadi Murmu and External Af…</description>
