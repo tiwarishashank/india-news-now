@@ -8,7 +8,7 @@
   <itunes:summary>Daily India news in a few minutes, every morning. India News Today is a quick news briefing on Indian politics, the economy, Sensex and Nifty markets, the rupee, Bollywood and entertainment, and cricket, made for busy listeners in India and the Indian diaspora in the US, UK, Canada and around the world. New episode daily. Nisha is an AI-voiced newsreader; stories are researched and checked by an AI assistant from reputable Indian news outlets.</itunes:summary>
   <language>en</language>
   <copyright>© 2026 Shashank Tiwari</copyright>
-  <lastBuildDate>Thu, 26 Nov 2026 14:58:29 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 27 Nov 2026 14:50:01 +0000</lastBuildDate>
   <itunes:author>India News Today</itunes:author>
   <itunes:owner><itunes:name>India News Today</itunes:name><itunes:email>shashank.iitb@gmail.com</itunes:email></itunes:owner>
   <itunes:image href="https://tiwarishashank.github.io/india-news-now/cover-navy.jpg"/>
@@ -16,6 +16,17 @@
   <itunes:category text="News"><itunes:category text="Daily News"/></itunes:category>
   <itunes:explicit>false</itunes:explicit>
   <itunes:type>episodic</itunes:type>
+  <item>
+    <title>Cabinet Clears Lok Sabha Seat Expansion Bill; Sensex Falls 989 Points | Fri, Nov 27</title>
+    <description>The Union Cabinet has approved a fresh Constitution amendment bill that would raise the number of Lok Sabha seats by fifty percent in every state, while freezing each state&#x27;s current share of seats until twenty fifty-one. The bill is tied to bringing in thirty-three percent reservation for women in Parliament and state legislatures. It comes after a similar bill was defeated in the Lok Sabha in Ap…</description>
+    <itunes:summary>The Union Cabinet has approved a fresh Constitution amendment bill that would raise the number of Lok Sabha seats by fifty percent in every state, while freezing each state&#x27;s current share of seats until twenty fifty-one. The bill is tied to bringing in thirty-three percent reservation for women in Parliament and state legislatures. It comes after a similar bill was defeated in the Lok Sabha in Ap…</itunes:summary>
+    <guid isPermaLink="false">india-news-now-2026-11-27</guid>
+    <pubDate>Fri, 27 Nov 2026 06:47:00 -0800</pubDate>
+    <enclosure url="https://tiwarishashank.github.io/india-news-now/episodes/2026-11-27.mp3" length="2651054" type="audio/mpeg"/>
+    <itunes:duration>00:03:41</itunes:duration>
+    <itunes:episodeType>full</itunes:episodeType>
+    <itunes:explicit>false</itunes:explicit>
+  </item>
   <item>
     <title>Tata Trusts challenge Chandrasekaran, India rejects US tariff claims | Thu, Nov 26</title>
     <description>India says it does not have structural excess capacity in any sector, pushing back on the United States after Washington proposed a tariff of up to twenty-five percent on Indian goods. The Commerce Ministry said it is examining the U.S. Trade Representative&#x27;s notice, that India engaged constructively throughout the investigation, and that it remains committed to an early conclusion of the India-U.…</description>
